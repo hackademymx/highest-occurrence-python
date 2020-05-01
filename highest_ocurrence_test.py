@@ -34,4 +34,4 @@ def test_array_of_high_six():
 def test_array_of_high_seven():
     print('Test seven')
     multiple_list = [3,3,3,4,4,4,4,2,3,6,7,6,7,6,7,6,'a','a','a','a']
-    assert collections.Counter(highestOcurrence.getHighestOcurrence(multiple_list)) == collections.Counter([4,6,'a'])
+    assert collections.Counter(highestOcurrence.getHighestOcurrence(multiple_list)) == collections.Counter([3,4,6,'a'])
